@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/formulario.css" />
+    <link rel="icon" href="./img/Icon/carrinho-de-compras.png">
+</head>
+
+<body>
+    <h4>20% de desconto em todos os produtos</h4>
+    <header>
+        <img class="logo" src="./img/logo.png" alt="logo">
+        <h1>Loja dos Herois</h1>
+    </header>
+    <div class="sub-header">
+        <a href="">Contato</a>
+        <a href="">Registre-se</a>
+        <a href="">login</a>
+    </div>
+    <main>
+
+
+        <div id="caixa">
+
+            <div class="texto">
+                <h1>Adicionar seu super-herói</h1> 
+                <h3>Adicione seu personagem favorito completando as informações</h3>
+            </div>
+
+
+            <form class="form1" action="">
+
+                <div class="nome">
+                    <label for="">Nome</label> 
+                    <input type="text" placeholder="">
+                </div>
+
+                <div class="data">
+                    <label for="">Data de Nascimento</label>
+                    <input type="date" placeholder="">
+                </div>
+
+                <div class="descricao">
+                    <textarea placeholder="  Descrição" rows="19" cols="40"></textarea>
+                </div>
+            </form>
+
+            <form class="form2">
+
+                <div class="especie">
+                    <h3>Espécie</p>
+                        <select name="espécie" id="especie">
+                            <option value="Desconhecido" selected="Desconhecido">Desconhecido</option>
+                            <option value="Alienigena" selected="Alienigena">Alienigena</option>
+                            <option value="Humano" selected="Humano">Humano</option>
+                        </select>
+                </div>
+
+                <div class="foto">
+                    <label for="">Adicionar foto</label><br>
+                    <input type="file" id="file">
+                </div>
+
+                <div class="inner_box">
+                    <div class="poderes">
+
+                        <label for="">Poderes</label><br>
+                        <input type="checkbox" name="poder"><label>Voar</label> <br>
+                        <input type="checkbox" name="poder"><label>Super Inteligência</label> <br>
+                        <input type="checkbox" name="poder"><label>Vista de raio laser</label> <br>
+                        <input type="checkbox" name="poder"><label>Super rico</label> <br>
+
+                    </div>
+                    <div id="linha"></div>
+                    <div class="personagem">
+
+                        <label for="">Tipo de Personagem</label><br>
+                        <input type="radio" name="personagem"><label>Héroi / Heroína</label> <br>
+                        <input type="radio" name="personagem"><label>Vilão / Vilã </label>
+                    </div>
+                </div>
+
+            </form>
+                            <div class="botao">
+                                <h1>Adicionar</h1>
+
+                            </div>
+
+
+        </div>
+
+
+
+    </main>
+    <footer>
+        <h3>Todos os direitos reservados a Beatriz Avelino e Soári Corrêa - 2022</h3>
+    </footer>
+</body>
+
+</html>
